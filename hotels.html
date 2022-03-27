@@ -28,9 +28,10 @@
 
             <h1 class="visually-hidden">Критерии выбора гостиницы</h1>
 
-            <section>
-                <form class="filter" method="get" action="#">
-                    <h2>Инфраструктура:</h2>
+        <form action="#" method="post"></form>
+
+            <fieldset>
+                <legend>Инфраструктура:</legend>
                     <ul>
                         <li>
                             <input checked id="pool" type="checkbox" name="pool">
@@ -45,12 +46,10 @@
                             <label for="wi-fi">Wi-fi</label>
                         </li>
                     </ul>
-                </form>
-            </section>
+            </fieldset>
 
-            <section>
-                <form class="filter" method="get" action="#">
-                    <h2>Тип жилья:</h2>
+            <fieldset>
+                <legend>Тип жилья:</legend>
                     <ul>
                         <li>
                             <input checked id="hotel" type="checkbox" name="hotel">
@@ -65,23 +64,21 @@
                             <label for="apartment">Апартаменты</label>
                         </li>
                     </ul>
-                </form>
-            </section>
+            </fieldset>
 
-            <section>
-                <form action="#" method="post">
-                    <h2>Стомость в сутки (P):</h2>
-                    <div>
-                        <input id="start-price" type="text" name="start-price" placeholder="от 0">
-                        <input id="finish-price" type="text" name="finish-price" placeholder="до 3000">
-                    </div>
-                </form>
+            <fieldset>
+               <legend>Стомость в сутки (P):</legend>
+                    <input id="start-price" type="text" name="start-price" placeholder="от 0">
+                    <input id="finish-price" type="text" name="finish-price" placeholder="до 3000">
                 <div class="slidecontainer">
                     <input type="range" min="0" max="4000" value="3000" class="slider" id="myRange">
                 </div>
-            </section>
+            </fieldset>
 
             <button type="submit">Показать</button>
+
+        </form>
+
         </section>
 
         <section>
