@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sity of Sedona</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#">
+            <img src="./imgs/logo-nav.png" width="128" height="70" alt="City of Sedona">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Информация</a></li>
+                <li><a href="#">Фото и видео</a></li>
+                <li><a href="#">Карта штата</a></li>
+                <li><a href="#">Гостиницы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1 class="visually-hidden">Город Седона</h1>
+            <img src="./imgs/welcome-sedona.png" width="458" height="352"
+                alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks">
+            <p>Cедона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        </section>
+
+        <section>
+            <h2>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
+            <ol>
+                <li>
+                    <div>
+                        <h3>Настоящий городок</h3>
+                        <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
+                        <img src="./imgs/city-sedona.jpg" width="800" height="401" alt="Вид города Седона">
+                    </div>
+                    <div>
+                        <h3>Жилье</h3>
+                        <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                    </div>
+                    <div>
+                        <h3>Еда</h3>
+                        <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                    </div>
+                    <div>
+                        <h3>Сувениры</h3>
+                        <p>Не только китайского, но и местного производства!</p>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>Там есть мост дьявола</h3>
+                    <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                    <img src="./imgs/bridge-of-devil.jpg" width="800" height="400" alt="Фото моста дьявола">
+                </li>
+                <li>
+                    <h3>Небольшая площадь</h3>
+                    <p>Все достопримечательности находятся очень близко</p>
+                </li>
+                <li>
+                    <h3>Красивая дорога</h3>
+                    <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                </li>
+                <li>
+                    <h3>Мало туристов</h3>
+                    <p>Большинство едет в Гранд Каньон и толпится там</p>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Заинтересовались?</h2>
+            <p>Укажите предполагаемые даты поездки,<br>
+                и мы покажем вам лучшие предложения гостиниц в Седоне
+            </p>
+
+            <h3>Поиск гостиницы в Седоне</h3>
+            <form action="#" method="post">
+                <p>
+                    <label for="check-in">Дата заезда:</label>
+                    <input id="check-in" type="date" name="check-in" value="2017-04-24">
+                </p>
+                <p>
+                    <label for="check-out">Дата выезда:</label>
+                    <input id="check-out" type="date" name="check-out" value="2017-07-04">
+                </p>
+                <p>
+                    <label for="adults">Взрослые:</label>
+                    <input id="adults" type="number" name="adults" value="2">
+                </p>
+                <p>
+                    <label for="children">Дети:</label>
+                    <input id="children" type="number" name="children" value="0">
+                </p>
+                <button type="submit">Найти</button>
+            </form>
+        </section>
+
+        <section>
+            <h2 class="visually-hidden">Карта расположения Седоны</h2>
+            <img src="./imgs/map.png" width="1718" height="748" alt="Карта штата">
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>#Visitsedona</p>
+            <p>Тел:<a href="tel:+7(495)666-01-66">+7(495)666-01-66</a></p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#" aria-label="Twitter"></a></li>
+                <li><a href="#" aria-label="Facebook"></a></li>
+                <li><a href="#" aria-label="Youtube"></a></li>
+            </ul>
+        </div>
+        <div>
+            <p>Website by</p>
+            <a href="#" aria-label="HTMLacademy"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
