@@ -13,6 +13,9 @@ body {
     background-image: url("../imgs/background-photo.jpg");
     background-position: top;
     background-repeat: no-repeat;
+
+    min-width: 1200px;
+    min-height: 2762px;
 }
 
 a {
@@ -23,19 +26,45 @@ a {
 
 .main-header {
     background-color: #ffffff;
+
+    min-height: 71px;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .main-navigation {
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
+
+    min-height: 56px;
+    background-color: #ffffff;
 }
 
 .site-navigation {
     list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+
+    min-height: 56;
+}
+
+.logo-navigation {
+    width: 138px;
+    height: 71px;
 }
 
 .site-navigation a {
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 16px;
+    padding-right: 59px;
+    padding-left: 59px;
     color: #000000;
 }
 
@@ -205,7 +234,6 @@ a {
     background-color: #ffffff;
     background-image: url(../imgs/footer-one.png);
     /* тут еще должно быть opacity */
-    opacity: 90%;
     background-position: 0 0;
     background-repeat: repeat;
 }
