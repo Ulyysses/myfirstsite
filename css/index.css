@@ -81,18 +81,15 @@
     color: #ffffff;
 
     background-color: #766357;
-    border: none;
 }
 
 .button-search:hover {
     background-color: #604E43;
-    border: none;
 }
 
 .button-search:active {
     color: #928A85;
     background-color: #503E33;
-    border: none;
 }
 
 .form-introduction {
@@ -102,25 +99,21 @@
 }
 
 .button-find {
-    font-family: 'PT Sans', Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
     color: #ffffff;
 
     background-color: #81B3D2;
-    border: none;
 }
 
 .button-find:hover {
     background-color: #669EC0;
-    border: none;
 }
 
 .button-find:active {
     background-color: #5496BD;
     color: #94B9D2;
-    border: none;
 }
 
 .input[type="date"],
