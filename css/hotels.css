@@ -112,18 +112,10 @@ fieldset {
 }
 
 .button-more:hover {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 700;
-    color: #ffffff;
-
     background-color: #669EC0;
 }
 
 .button-more:active {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 700;
     color: #87B5D0;
 
     background-color: #5496BD;
@@ -139,18 +131,10 @@ fieldset {
 }
 
 .button-book:hover {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 700;
-    color: #ffffff;
-
     background-color: #604E43;
 }
 
 .button-book:active {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 700;
     color: #847870;
 
     background-color: #503E33;
