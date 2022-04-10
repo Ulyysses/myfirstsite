@@ -30,6 +30,12 @@ ul ol {
     list-style: none;
 }
 
+button {
+    font-family: 'PT Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    border: none;
+}
+
 /* header */
 
 .main-header {
