@@ -116,8 +116,8 @@
     background-color: #5496BD;
 }
 
-.input[type="date"],
-.input[type="number"] {
+.input-date,
+.input-number {
     font-family: 'PT Sans', Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
@@ -127,14 +127,13 @@
     border: none;
 }
 
-.input[type="date"]:hover,
-.input[type="number"]:hover {
+.input-date:hover,
+.input-number:hover {
     background-color: #EBEBEB;
-    border: none;
 }
 
-.input[type="date"]:focus,
-.input[type="number"]:focus {
+.input-date:focus,
+.input-number:focus {
     background-color: transparent;
     border: 2px solid #E5E5E5;
     outline: none;
