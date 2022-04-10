@@ -33,9 +33,6 @@ fieldset {
 }
 
 .button-show:hover {
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
     color: #000000;
 
     background-color: #ffffff;
@@ -69,23 +66,12 @@ fieldset {
 }
 
 .button-sorting:hover {
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
     color: #81B3D2;
-    text-decoration: underline dashed;
-
-    background-color: transparent;
 }
 
 .button-sorting:active {
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 400;
     color: #000000;
     text-decoration: none;
-
-    background-color: transparent;
 }
 
 /* accomodation */
