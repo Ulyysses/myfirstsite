@@ -112,8 +112,8 @@
 }
 
 .button-find:active {
-    background-color: #5496BD;
     color: #94B9D2;
+    background-color: #5496BD;
 }
 
 .input[type="date"],
