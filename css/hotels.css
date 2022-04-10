@@ -29,7 +29,7 @@ fieldset {
     color: #ffffff;
 
     background-color: transparent;
-    border: 2px #DBD9D8;
+    border: 2px solid #DBD9D8;
 }
 
 .button-show:hover {
@@ -39,7 +39,7 @@ fieldset {
     color: #000000;
 
     background-color: #ffffff;
-    border: 2px #DBD9D8;
+    border: 2px solid #DBD9D8;
 }
 
 /* found */
