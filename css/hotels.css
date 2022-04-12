@@ -1,0 +1,136 @@
+/* form */
+
+.criteria {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+
+    background-image: url("../imgs/backgroung-blurry.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.criteria legend {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.criteria-fieldset {
+    border: 0;
+}
+
+.button-show {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+
+    background-color: transparent;
+    border: 2px solid #DBD9D8;
+}
+
+.button-show:hover {
+    color: #000000;
+
+    background-color: #ffffff;
+}
+
+/* found */
+
+.found {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.sorting h3 {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.button-sorting {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #B2B2B2;
+    text-decoration: underline dashed;
+
+    background-color: transparent;
+}
+
+.button-sorting:hover {
+    color: #81B3D2;
+}
+
+.button-sorting:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* accomodation */
+
+.accomodation h4 {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.accomodation-description p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.button-more {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+
+    background-color: #81B3D2;
+}
+
+.button-more:hover {
+    background-color: #669EC0;
+}
+
+.button-more:active {
+    color: #87B5D0;
+
+    background-color: #5496BD;
+}
+
+.button-book {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+
+    background-color: #766357;
+}
+
+.button-book:hover {
+    background-color: #604E43;
+}
+
+.button-book:active {
+    color: #847870;
+
+    background-color: #503E33;
+}
+
+.rating {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #666666;
+
+    background-image: url(../imgs/rating.png);
+    background-color: #F2F2F2;
+}
