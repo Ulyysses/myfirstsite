@@ -19,7 +19,9 @@ body {
     color: #000000;
     text-transform: uppercase;
 
-    background-color: #ffffff;
+    background-color: white;
+
+    min-width: 1200px;
 }
 
 a {
@@ -33,16 +35,44 @@ ol {
     padding: 0;
 }
 
+
 button {
     font-family: 'PT Sans', Arial, sans-serif;
     text-transform: uppercase;
     border: none;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 /* header */
 
 .main-header {
     background-color: #ffffff;
+
+    position: relative;
+}
+
+.logo-navigation {
+    width: 138px;
+    height: 71px;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .main-navigation {
@@ -52,10 +82,30 @@ button {
 }
 
 .site-navigation {
+    display: flex;
+    justify-content: space-around;
+
     list-style: none;
 }
 
+.site-navigation li {
+    display: flex;
+    justify-content: center;
+
+    width: 239px;
+}
+
+.photo-nav {
+    margin-right: 244px;
+}
+
 .site-navigation a {
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 16px;
+
+    vertical-align: middle;
+
     color: #000000;
 }
 
@@ -71,15 +121,21 @@ button {
 
 .footer {
     color: #000000;
-    background-color: #ffffff;
-    background-position: 0 0;
-    background-repeat: repeat;
+    background-color: white;
+    opacity: 0.9;
+    height: 120px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .contacts {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
+
+    width: 251px;
 }
 
 .contacts a {
@@ -90,8 +146,35 @@ button {
     text-align: center;
 }
 
+.social ul {
+    width: 150px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .social-button {
-    color: #ffffff;
+    background-color: #81B3D2;
+
+    width: 46px;
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-button:hover {
+    background-color: #669EC0;
+}
+
+.social-button:active {
+    background-color: #5496BD;
+}
+
+.social-button:active svg {
+    opacity: 0.3;
 }
 
 .copyright {
@@ -100,8 +183,26 @@ button {
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
 }
 
-.copyright a {
-    color: #000000;
+.copyright p {
+    margin: 0;
+}
+
+.logo-htmlacademy {
+    width: 115px;
+    height: 41px;
+}
+
+.logo-htmlacademy:hover svg path {
+    fill: #81B3D2;
+}
+
+.logo-htmlacademy:active svg path {
+    fill: #87B5D0;
 }
